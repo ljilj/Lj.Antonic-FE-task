@@ -1,0 +1,57 @@
+.c-icon {
+    display: inline-block;
+    fill: currentColor;
+}
+
+.c-icon--logo-size {
+    width: 2.875rem;
+    height: 2.875rem;
+    margin-block-start: 2rem;
+}
+
+.c-icon--search-size,
+.c-icon--heart-size,
+.c-icon--cart-size,
+.c-icon--size,
+.c-icon--chevron {
+    height: 1.5rem;
+}
+
+.c-icon--search-size,
+.c-icon--size,
+.c-icon--chevron {
+    width: 1.5rem;
+}
+
+.c-icon--heart-size,
+.c-icon--cart-size {
+    width: 2.5rem;
+    margin-inline-start: 1rem; 
+}
+
+.c-icon--white {
+    color: var(--color-white);
+}
+
+.c-icon--light-grey {
+    color: var(--color-light-grey);
+}
+
+.c-icon--mb {
+    margin-block-end: 1.8rem;
+
+    @media (max-width: $mobile) {
+        margin: 2rem auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.c-icon--purple {
+    color: var(--color-purple);
+}
+
+.c-icon--grey {
+    color: var(--color-grey);
+}
